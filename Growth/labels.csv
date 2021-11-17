@@ -1,0 +1,382 @@
+variable,label,source
+country_name,Country name,ANRR
+wbcode,World Bank country code,ANRR
+year,Year (from 1960 to 2010),ANRR
+gdppercapitaconstant2000us,"GDP per capita (constant 2000 US$, from World Bank)",ANRR
+lp_bl,Percentage of population with at most primary education (Barro-Lee),ANRR
+ls_bl,Percentage of population with at most secondary education (Barro-Lee),ANRR
+lh_bl,Percentage of population with tertiary education (Barro-Lee),ANRR
+taxratio,Tax revenue as a share of GDP (from Hendrix),ANRR
+region,Geographical region,ANRR
+wbcode2,Generated numeric country code,ANRR
+demCGV,Democracy measure by CGV,ANRR
+demBMR,Democracy measure by BMR,ANRR
+yeardem,Identifier for a democratization during this year,ANRR
+yearrev,Identifier for a reversal to autocracy during this year,ANRR
+secenr,Secondary enrollment from World bank,ANRR
+prienr,Primary enrollment from World Bank,ANRR
+tradewb,Exports plus Imports as a share of GDP from World Bank,ANRR
+mortnew,Child mortality per 1000 births from World Bank,ANRR
+ginv,Gross investment as a share of GDP,ANRR
+rtfpna,TFP at constant national prices (2005=1) from PWT,ANRR
+y,log of GDP per capita in 2000 constant dollars (multiplied by a 100),ANRR
+dem,Democracy measure by ANRR,ANRR
+InitReg,Democratic status after independence or in 1960,ANRR
+unrest,Occurrence of events of unrest (from Banks CNTS),ANRR
+loginvpc,log investment (multiplied by 100),ANRR
+ltfp,log TFP (multiplied by 100),ANRR
+ltrade2,lof of trade (multiplied by 100),ANRR
+lprienr,lof of primary enrollment (multiplied by 100),ANRR
+lsecenr,log of secondary enrollment (multiplied by 100),ANRR
+lgov,log of taxes to GDP (multiplied by a 100),ANRR
+lmort,log of child mortality rate (multiplied by a 100),ANRR
+unrestn,Likelihood of unrest (0-100 scale),ANRR
+demFH,democracy measure based on Freedom House,ANRR
+demPOL,democracy measure based on Polity IV,ANRR
+demPS,democracy measure by PS (1960),ANRR
+demPOL_xconst,dummy for constraints on executive (based on polity),ANRR
+demPOL_parcomp,dummy for competitiveness of participation (based on polity),ANRR
+demPOL_exrec,dummy for quality of executive recruitment process (based on Polity),ANRR
+demFH_pr,Dummy for political rights (based on Freedom House),ANRR
+demFH_cl,Dummy for civil liberties (based on Freedom House),ANRR
+demevent,Event of democratization,ANRR
+revevent,Event of reversal to autocracy,ANRR
+democ,Cummulative number of democratizations,ANRR
+rever,Cummulative number of reversals,ANRR
+demext,Democratic status at beginning of sample,ANRR
+regionINITREG,Region/Initial regime at start of sample cells,ANRR
+demreg,Average democracy in the region*initial regime (leaving own country out),ANRR
+tradewbreg,Regional trade,ANRR
+unrestreg,Regional unrest,ANRR
+yreg,Regional GDP per capita,ANRR
+region60,Region/Democratic in 1960 cells,ANRR
+regionDA,Region/Always democratic cells,ANRR
+regionREG,Region/Detailed regime in 1960 cells,ANRR
+demreg60,"Average democracy in the region*initial regim (using regime in 1960, jackniffed)",ANRR
+demregDA,"Average democracy in the region*initial regim (using always democracy, jackniffe",ANRR
+demregREGIME,"Average democracy in the region*initial regime (detailed regimes, jackniffed)",ANRR
+gdp1960,GDP per capita in 1960 from Madisson,ANRR
+region_initreg_year,Region/Initial regime/year cells,ANRR
+incomequint50s_year,Income quintiles in 50s/year cells,ANRR
+sov1,Soviets post 89,ANRR
+sov2,Soviets post 90,ANRR
+sov3,Soviets post 91,ANRR
+sov4,Soviets post 92,ANRR
+marketref,Index of market reforms (1960),ANRR
+gfa,sum) gfa,ANRR
+nfa,sum) nfa,ANRR
+totalassets,sum) totalassets,ANRR
+totalliabilities,sum) totalliabilities,ANRR
+nfagdp,mean) nfagdp,ANRR
+nfagdpreg,nfagdpreg,ANRR
+incomequint50s_year1,incomequint50 1,ANRR
+incomequint50s_year2,incomequint50 2,ANRR
+quintile50s,quintile50s,ANRR
+dquint1,quintile50s== 1.0000,ANRR
+dquint2,quintile50s== 2.0000,ANRR
+dquint3,quintile50s== 3.0000,ANRR
+dquint4,quintile50s== 4.0000,ANRR
+dquint5,quintile50s== 5.0000,ANRR
+country,Country Name,ANRR
+areakm2,Area in km2,ANRR
+cen_lat,latitude of country centroid,ANRR
+cen_lon,longitude of country centroid,ANRR
+elev,mean m above sea level,ANRR
+distcr,mean distance to coast or river,ANRR
+distc,mean distance to coast,ANRR
+distr,mean distance to river,ANRR
+tropicar,% land area in geographical tropics,ANRR
+troppop,pop (95) in geographical tropics,ANRR
+lc100km,area 100km from icefree coast,ANRR
+lcr100km,area 100km from icefree coast or sea-nav. river,ANRR
+pop95,1995 pop (from GPWv2),ANRR
+pdenpavg,typical pop density experienced,ANRR
+pop100km,pop (95) 100km from icefree coast,ANRR
+pop100cr,pop (95) 100km from icefree coast or sea-nav. river,ANRR
+cen_c,dist centroid to coast(km),ANRR
+cen_cr,dist centroid to coast/riv (km),ANRR
+polity,Polity (measure of democracy),ANRR
+xrreg,xrreg,ANRR
+xrcomp,xrcomp,ANRR
+xropen,xropen,ANRR
+xconst,xconst,ANRR
+parreg,parreg,ANRR
+parcomp,parcomp,ANRR
+exrec,exrec,ANRR
+exconst,exconst,ANRR
+polcomp,polcomp,ANRR
+polity2_aug,polity2_aug,ANRR
+independent,independent,ANRR
+transition,transition,ANRR
+interruption,interruption,ANRR
+interregnum,interregnum,ANRR
+pr,pr,ANRR
+cl,cl,ANRR
+pr_aug,pr_aug,ANRR
+cl_aug,cl_aug,ANRR
+demt,demt,ANRR
+polity2,Polity 2 (measure of democracy),ANRR
+status,status,ANRR
+NAME,NAME,ANRR
+LON,LON,ANRR
+LAT,LAT,ANRR
+_ID,ID variable,ANRR
+GDPpercapitaconstantLCUN,GDP per capita (constant LCU) [NY.GDP.PCAP.KN],ANRR
+rgdpl2,rgdpl2,ANRR
+rgdpna_full,rgdpna_full,ANRR
+PopulationtotalSPPOPTOTL,"Population, total [SP.POP.TOTL]",ANRR
+Populationages014oftotal,Population ages 0-14 (% of total) [SP.POP.0014.TO.ZS],ANRR
+Populationages1564oftota,Population ages 15-64 (% of total) [SP.POP.1564.TO.ZS],ANRR
+baseco,dummy for former colonies included in the base N=64 sample,AR
+f_brit,BritishColony(Flopsexpsn),AR
+f_french,FrenchColony(Flopsexpans),AR
+rich4,dummy=1 for neo-europes,AR
+sjlofr,French legal orgin recoded,AR
+excolony,=1 if was colony FLOPS definiti,AR
+logem4,log of mortality rate (IV),AR
+mortality,"mortality measure (deaths per 1000 soldiers) from Appendix Table A2, AJR",AR
+imputedmort,imputed mortality rate from logem4 measure (=exp(logem4)),AR
+extmort4,corrected mortality (AJR),AR
+euro1900,european settlements in 1900,AR
+currentinst,"IFC ease of doing business index/rank, 2012 (** our measure)",AR
+avexpr,"avg. risk of expropriation, 1985-1995",AR
+cons00a,constraint on executive in 1900,AR
+cons1,constraint on executive in 1st year of independence,AR
+indtime,years independent: 1995 minus firstyr,AR
+democ00a,democracy in 1900,AR
+democ1,democracy in first year of independence,AR
+logpgp95,"log GDP per capita PPP in 1995, World Bank ",AR
+loghjypl,"log output per worker in 1988 (US normalized to 1), Hall & Jones",AR
+logpgp12,"log GDP per capital PPP in 2012, World Bank (** our measure)",AR
+lat_abst,Abs(latitude of capital)/90,AR
+meantemp,mean temperature (McArthur and Sachs),AR
+lt100km,amount of territory within 100 km of the coast (McArthur and Sachs),AR
+latabs,absolute latitude (McArthur and Sachs),AR
+africa,dummy=1 for Africa,AR
+asia,dummy=1 for Asia,AR
+other,"dummy=1 if not in Asia, Africa, or the Americas",AR
+temp1,temperature: 1,AR
+temp2,temperature: 2,AR
+temp3,temperature: 3,AR
+temp4,temperature: 4,AR
+temp5,temperature: 5,AR
+humid1,humidity: 1,AR
+humid2,humidity: 2,AR
+humid3,humidity: 3,AR
+humid4,humidity: 4,AR
+steplow,soil: steplow,AR
+deslow,soil: deslow,AR
+stepmid,soil: stepmid,AR
+desmid,soil: desmid,AR
+drystep,soil: drystep,AR
+drywint,soil: drywint,AR
+landlock,=1 if landlocked,AR
+goldm,Natural minerals: gold,AR
+iron,Natural mineral: iron,AR
+silv,Natural mineral: silver,AR
+zinc,Natural mineral: zinc,AR
+oilres,oil reserves ,AR
+catho80,catholic as %pop 1980 wce95,AR
+muslim80,muslims as % pop 1980 wce95,AR
+no_cpm80,100-Cath-Protest-Muslim in 1980,AR
+edes1975,% of European descent in 1975,AR
+avelf,ethno fract avg 5indic east_lev,AR
+malfal94,Falciparum malaria index 1994,AR
+yellow,=1 if vector yellow fever present today,AR
+leb95,life expectancy at birth (1995),AR
+imr95,infant mortality rate (1995),AR
+inst.age.1900,inst.age.1900,AR
+id,Numerical country identifier,QG
+code,World Bank country code,QG
+country,World Bank country name,QG
+pop1,Population in 1 CE,QG
+pop1000,Population in 1000 CE,QG
+pop1500,Population in 1500 CE,QG
+pd1,Population density in 1 CE,QG
+pd1000,Population density in 1000 CE,QG
+pd1500,Population density in 1500 CE,QG
+ur1500,Urbanization rate in 1500 CE,QG
+gdppc2000,Income per capita in 2000 CE,QG
+trust,Interpersonal trust,QG
+articles,Scientific articles,QG
+adiv,Observed genetic diversity,QG
+adiv_sqr,Observed genetic diversity square,QG
+pdiv,Predicted genetic diversity,QG
+pdiv_sqr,Predicted genetic diversity square,QG
+pdiv_aa,Predicted genetic diversity (ancestry adjusted),QG
+pdiv_aa_sqr,Predicted genetic diversity (ancestry adjusted) square,QG
+pdivhmi,Mobility index-predicted genetic diversity,QG
+pdivhmi_sqr,Mobility index-predicted genetic diversity square,QG
+pdivhmi_aa,Mobility index-predicted genetic diversity (ancestry adjusted),QG
+pdivhmi_aa_sqr,Mobility index-predicted genetic diversity (ancestry adjusted) square,QG
+ahomo,Observed genetic homogeneity,QG
+ahomo_sqr,Observed genetic homogeneity square,QG
+phomo,Predicted genetic homogeneity,QG
+phomo_sqr,Predicted genetic homogeneity square,QG
+phomo_aa,Predicted genetic homogeneity (ancestry adjusted),QG
+phomo_aa_sqr,Predicted genetic homogeneity (ancestry adjusted) square,QG
+mdist_hgdp,Migratory distance from East Africa (limited sample def.),QG
+mdist_hgdp_sqr,Migratory distance from East Africa (limited sample def.) square,QG
+mdist_addis,Migratory distance from East Africa,QG
+mdist_addis_sqr,Migratory distance from East Africa square,QG
+mdist_addis_aa,Migratory distance from East Africa (ancestry adjusted),QG
+mdist_addis_aa_sqr,Migratory distance from East Africa (ancestry adjusted) square,QG
+mdist_london,"Migratory distance from London, U.K.",QG
+mdist_london_sqr,"Migratory distance from London, U.K. square",QG
+mdist_tokyo,"Migratory distance from Tokyo, Japan",QG
+mdist_tokyo_sqr,"Migratory distance from Tokyo, Japan square",QG
+mdist_mexico,"Migratory distance from Mexico City, Mexico",QG
+mdist_mexico_sqr,"Migratory distance from Mexico City, Mexico square",QG
+aerial,Aerial distance from East Africa,QG
+aerial_sqr,Aerial distance from East Africa square,QG
+aerial_aa,Aerial distance from East Africa (ancestry adjusted),QG
+aerial_aa_sqr,Aerial distance from East Africa (ancestry adjusted) square,QG
+frontdist1,Distance to regional frontier in 1 CE,QG
+frontdist1000,Distance to regional frontier in 1000 CE,QG
+frontdist1500,Distance to regional frontier in 1500 CE,QG
+hmicost_hgdp,Mobility index-based distance from East Africa (limited sample def.),QG
+hmicost_hgdp_sqr,Mobility index-based distance from East Africa (limited sample def.) square,QG
+hmicost_addis,Mobility index-based distance from East Africa,QG
+hmicost_addis_sqr,Mobility index-based distance from East Africa square,QG
+hmicost_addis_aa,Mobility index-based distance from East Africa (ancestry adjusted),QG
+hmicost_addis_aa_sqr,Mobility index-based distance from East Africa (ancestry adjusted) square,QG
+fstdist1500_uk,Genetic distance to the U.K. (1500 match),QG
+fstdist1500_eth,Genetic distance to Ethiopia (1500 match),QG
+fstdistwtd_usa,Genetic distance to the U.S. (weighted),QG
+fstdistwtd_eth,Genetic distance to Ethiopia (weighted),QG
+yst,Neolithic transition timing,QG
+yst_aa,Neolithic transition timing (ancestry adjusted),QG
+yst1500,Neolithic transition timing (1500 CE baseline),QG
+yst1500_scaled,"Neolithic transition timing (1500 CE baseline, in thousands of years)",QG
+submode1000,Subsistence mode in 1000 CE,QG
+cenlat,Geodesic centroid latitude,QG
+cenlong,Geodesic centroid longitude,QG
+area,Total land area,QG
+area_ar,Arable land area,QG
+abslat,Absolute latitude,QG
+arable,Percentage of arable land,QG
+suitavg,Land suitability for agriculture,QG
+suitrng,Range of land suitability,QG
+suitgini,Land suitability Gini,QG
+soilsuit,Soil fertility,QG
+elevavg,Mean elevation,QG
+elevavg2,"Mean elevation (version 2, from Michalopoulos 2011)",QG
+elevstd,Standard deviation of elevation,QG
+rough,Terrain roughness,QG
+rough_sqr,Terrain roughness square,QG
+temp,Temperature,QG
+precip,Precipitation,QG
+distcr,Mean distance to nearest waterway,QG
+land100cr,Percentage of land near a waterway,QG
+kgatr,Percentage of population living in tropical zones,QG
+kgatrstr,Percentage of population living in tropical and subtropical zones,QG
+kgatemp,Percentage of population living in temperate zones,QG
+malfal,Percentage of population at risk of contracting malaria,QG
+climate,Climate,QG
+axis,Orientation of continental axis,QG
+size,Size of continent,QG
+plants,Domesticable plants,QG
+animals,Domesticable animals,QG
+socinf,Social infrastructure,QG
+democ,Democracy,QG
+xconst,Executive constraints,QG
+legor_uk,British legal origin dummy,QG
+legor_fr,French legal origin dummy,QG
+legor_so,Socialist legal origin dummy,QG
+legor_ge,German legal origin dummy,QG
+legor_sc,Scandinavian legal origin dummy,QG
+pprotest,Share of Protestants in the population,QG
+pcatholic,Share of Roman Catholics in the population,QG
+pmuslim,Share of Muslims in the population,QG
+pother,Share of other religions in the population,QG
+efrac,Ethnic fractionalization,QG
+peuro,Percentage of population of European descent,QG
+school,Years of schooling,QG
+pnative,Percentage of population with native ancestry in 1500 CE,QG
+uvdamage,Ultraviolet exposure,QG
+skinreflectance,Mean skin reflectance,QG
+height,Mean height,QG
+weight,Mean weight,QG
+continent,Continent name,QG
+africa,Africa dummy,QG
+europe,Europe dummy,QG
+asia,Asia dummy,QG
+oceania,Oceania dummy,QG
+americas,Americas dummy,QG
+oecd,OECD dummy,QG
+opec,OPEC dummy,QG
+western,Neo-Europe dummy,QG
+region,Region name,QG
+wb_ssa,Sub-Saharan Africa region dummy,QG
+wb_mena,Middle East and North Africa region dummy,QG
+wb_eca,Europe and Central Asia region dummy,QG
+wb_sas,South Asia region dummy,QG
+wb_eap,East Asia and Pacific region dummy,QG
+wb_nam,North America region dummy,QG
+wb_lac,Latin America and Caribbean region dummy,QG
+ln_pop1,Log [population in 1 CE],QG
+ln_pop1000,Log [population in 1000 CE],QG
+ln_pop1500,Log [population in 1500 CE],QG
+ln_pd1,Log [population density in 1 CE],QG
+ln_pd1000,Log [population density in 1000 CE],QG
+ln_pd1500,Log [population density in 1500 CE],QG
+ln_ur1500,Log[1 + urbanization rate in 1500 CE],QG
+ln_gdppc2000,Log [income per capita in 2000 CE],QG
+ln_adiv,Log [1 + observed genetic diversity],QG
+ln_adiv_sqr,Square of log [1 + observed genetic diversity],QG
+ln_pdiv,Log [1 + predicted genetic diversity],QG
+ln_pdiv_sqr,Square of log [1 + predicted genetic diversity],QG
+ln_pdiv_aa,Log [1 + predicted genetic diversity (ancestry adjusted)],QG
+ln_pdiv_aa_sqr,Square of log [1 + predicted genetic diversity (ancestry adjusted)],QG
+ln_frontdist1,Log [1 + distance to regional frontier in 1 CE],QG
+ln_frontdist1000,Log [1 + distance to regional frontier in 1000 CE],QG
+ln_frontdist1500,Log [1 + distance to regional frontier in 1500 CE],QG
+ln_yst,Log [Neolithic transition timing],QG
+ln_yst_aa,Log [Neolithic transition timing (ancestry adjusted)],QG
+ln_yst1500,Log [Neolithic transition timing (1500 CE baseline)],QG
+ln_submode1000,Log [subsistence mode in 1000 CE],QG
+ln_area_ar,Log [arable land area],QG
+ln_abslat,Log [absolute latitude],QG
+ln_arable,Log [percentage of arable land],QG
+ln_suitavg,Log [land suitability for agriculture],QG
+ln_soilsuit,Log [soil fertility],QG
+ln_temp,Log [temperature],QG
+ln_precip,Log [precipitation],QG
+cleanlim,Sample flag,QG
+cleanpd1,Sample flag,QG
+cleanpd1000,Sample flag,QG
+cleanpd1500,Sample flag,QG
+cleanur1500,Sample flag,QG
+cleancomp,Sample flag,QG
+cleangdp,Sample flag,QG
+cleantrust,Sample flag,QG
+cleanarticles,Sample flag,QG
+cleanhibbs,Sample flag,QG
+cleanskin,Sample flag,QG
+cleanheight,Sample flag,QG
+cleanweight,Sample flag,QG
+cleanlimfst,Sample flag,QG
+cleanpd1500fst,Sample flag,QG
+cleancompfst,Sample flag,QG
+cleangdptrust,Sample flag,QG
+cleangdparticles,Sample flag,QG
+conley_coord1,Spatial coordinate 1 for Conley's (1999) SE correction,QG
+conley_coord2,Spatial coordinate 2 for Conley's (1999) SE correction,QG
+conley_cutoff1,Spatial dependence cutoff 1 for Conley's (1999) SE correction,QG
+conley_cutoff2,Spatial dependence cutoff 2 for Conley's (1999) SE correction,QG
+conley_const,Constant term for Conley's (1999) SE correction,QG
+population_initial,Population in 1970,WB
+gdp_pc_initial,GDP per capita in 1970,WB
+gdp_initial,GDP in 1970,WB
+capital_growth_pct_gdp_initial,Gross capital formation in 1970 (% of GDP),WB
+population_now,Population in 2020,WB
+gdp_pc_now,GDP per capita in 2020,WB
+gdp_now,GDP in 2020,WB
+capital_growth_pct_gdp_now,Gross capital formation in 2020 (% of GDP),WB
+investment_rate,"Capital formation (% of GDP per year, avg. of available years 1970-2020)",WB
+lgdp_initial,GDP per capita in 1970 (log),WB
+lgdp_now,GDP per capita in 2020 (log),WB
+lpop_initial,Population in 1970 (log),WB
+lpop_now,Population in 2020 (log),WB
+gdp_growth,"Annual growth in GDP per capita, 1970-2020",WB
+pop_growth,"Annual growth in population, 1970-2020",WB
