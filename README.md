@@ -2,6 +2,10 @@
 
 This repository will contain code for working with publicly available datasets. The intention is to help students seeking to write an empirical thesis in getting started with empirical work on some good datasets.
 
+## External recommendations
+
+* A [database](https://ejd.econ.mathematik.uni-ulm.de) with "automatic stata reproductions". 
+
 ## Todo 
 
 A short list of datasets that I eventually want to have code for in this register. 
