@@ -4,7 +4,8 @@ This repository will contain code for working with publicly available datasets. 
 
 ## External recommendations
 
-* A [database](https://ejd.econ.mathematik.uni-ulm.de) with "automatic stata reproductions". 
+* A [wiki](https://replication.uni-goettingen.de/wiki/index.php) with tons of papers that replicate (and therefore include data), categorized by topic or the methods in use. 
+* A [database](https://ejd.econ.mathematik.uni-ulm.de) with "automatic stata reproductions".
 
 ## Todo 
 
