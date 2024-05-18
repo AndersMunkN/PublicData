@@ -16,6 +16,7 @@ A short list of datasets that I eventually want to have code for in this registe
 * Spectrum Auctions: Data is e.g. avilable at [Penn](https://capcp.la.psu.edu/data-and-software/fcc-spectrum-auction-data/) or at [FCC](https://www.fcc.gov/auctions-summary). 
   * Data for [Denmark](https://ens.dk/en/our-responsibilities/spectrum/auctions)
 * Danish pharmaceutical prices at [medicinpriser.dk](https://medicinpriser.dk/).
+* Procurement auctions in Europe: [data.europe.eu](https://data.europa.eu/data/datasets/ted-csv?locale=en). Browse around the site, there's quite a lot of data. Typically, there's a final price and some notion of an "expected price" (or a value). The Danish Consumer and Competition Authority also maintains a dataset which contains the Danish auctions only and where they add some additional variables and do quality control. [kfst.dk/udbud/data-og-cases/udbudsdata/](https://www.kfst.dk/udbud/data-og-cases/udbudsdata/). 
 
 
 
